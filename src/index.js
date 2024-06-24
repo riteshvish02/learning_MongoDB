@@ -11,7 +11,7 @@ const PORT = 3000;
 app.listen(PORT, async () => {
     console.log(`server started at ${PORT}`);
     await connect();
-    console.log("mongo db connected");
+    console.log("this is my contri");
 
     const repo = new TweetRepository();
 
@@ -21,7 +21,7 @@ app.listen(PORT, async () => {
     // const k = await repo.getAll(4, 4);
     // console.log(k);
 
-    await repo.create({content: 'this is 10th tweet', userEmail: 'thalaForAReason@gmail.com'});
+    await repo.create({content: 'this is 111111th tweet', userEmail: 'thalaForAReason@gmail.com'});
     
     // const tweetId = await repo.get('65ab7ed7a438a88cc036c4f8');
     // console.log(tweetId);
